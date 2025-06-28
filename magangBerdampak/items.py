@@ -7,6 +7,12 @@ import scrapy
 
 
 class MagangberdampakItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    field = scrapy.Field()
+    placement_location = scrapy.Field()
+    company_location = scrapy.Field()
+    description_company = scrapy.Field()
+    description_job = scrapy.Field()
+    assigments_details = scrapy.Field()
+    criteria = scrapy.Field()
+    learning_outcomes = scrapy.Field()
