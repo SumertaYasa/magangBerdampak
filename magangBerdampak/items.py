@@ -15,4 +15,4 @@ class MagangberdampakItem(scrapy.Item):
     description_job = scrapy.Field()
     assigments_details = scrapy.Field()
     criteria = scrapy.Field()
-    learning_outcomes = scrapy.Field()
+    s = scrapy.Field()

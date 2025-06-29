@@ -1,1 +1,32 @@
-data_magang_berdampak.xlsx
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Scrapy cache & logs
+.scrapy/
+httpcache/
+*.log
+
+# Output hasil scraping
+*.xlsx
+*.csv
+*.json
+*.jl
+
+# Virtual environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
